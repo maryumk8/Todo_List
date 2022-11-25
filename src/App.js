@@ -3,7 +3,12 @@ import "./App.css";
 import Todo from "./components/todo";
 
 function App() {
-    return <Todo />;
+    return (
+        <div>
+            {" "}
+            <Todo />
+        </div>
+    );
 }
 
 export default App;
